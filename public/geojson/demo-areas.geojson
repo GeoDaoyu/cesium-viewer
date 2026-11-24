@@ -1,0 +1,68 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "示例区域 A",
+        "category": "核心区",
+        "description": "用于演示 GeoJSON 面填充、边界与名称标注。",
+        "area_km2": 420.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [116.2, 39.8],
+            [116.45, 39.8],
+            [116.45, 39.95],
+            [116.2, 39.95],
+            [116.2, 39.8]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "示例区域 B",
+        "category": "拓展区",
+        "description": "示例数据，坐标与属性均为虚构。",
+        "area_km2": 380.2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [116.5, 39.82],
+            [116.75, 39.82],
+            [116.75, 39.97],
+            [116.5, 39.97],
+            [116.5, 39.82]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "示例区域 C",
+        "category": "预留区",
+        "description": "演示多个面图层同时加载与标注。",
+        "area_km2": 510.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [116.35, 40.0],
+            [116.55, 40.0],
+            [116.55, 40.12],
+            [116.35, 40.12],
+            [116.35, 40.0]
+          ]
+        ]
+      }
+    }
+  ]
+}

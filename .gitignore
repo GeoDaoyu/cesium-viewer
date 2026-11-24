@@ -1,0 +1,17 @@
+/node_modules
+/.env.local
+/.umirc.local.ts
+/config/config.local.ts
+/src/.umi
+/src/.umi-production
+/src/.umi-test
+/.umi
+/.umi-production
+/.umi-test
+/dist
+# 构建产物压缩包（/dist 匹配不到 dist.zip 这类文件）
+/*.zip
+/.mfsu
+.swc
+**/.DS_Store
+/public/cesium

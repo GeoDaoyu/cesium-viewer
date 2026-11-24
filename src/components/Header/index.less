@@ -1,0 +1,59 @@
+@green: #4dffb8;
+@border: rgba(77, 255, 184, 0.35);
+
+.header {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  height: 64px;
+  padding: 0 24px;
+  flex-shrink: 0;
+  background: #000503;
+  border-bottom: 1px solid @border;
+  font-family: var(--title-font-family, "PingFang SC", sans-serif);
+}
+
+.brand {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  min-width: 0;
+}
+
+.title {
+  margin: 0;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  white-space: nowrap;
+}
+
+.subtitle {
+  color: rgba(255, 255, 255, 0.45);
+  font-size: 13px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-shrink: 0;
+}
+
+.link {
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 13px;
+  text-decoration: none;
+  transition: color 0.2s;
+
+  &:hover {
+    color: @green;
+  }
+}
