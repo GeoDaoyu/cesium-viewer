@@ -159,7 +159,7 @@ src/
 - **点图查询**：始终带 `spatialFilter`（点击点构造的小矩形），避免全表查询；
   多层从上层到下层逐个试，命中即停。
 
-更多说明见 [docs/technical-notes.md](docs/technical-notes.md)。
+实现细节都写在对应源码的注释里。
 
 ## 说明
 
